@@ -22,7 +22,7 @@ import { DropdownDirective } from './shared/dropdown.directive';
     RecipeItemComponent, 
     ShoppingListComponent, 
     ShoppingEditComponent, 
-    DropdownDirective
+    DropdownDirective, 
   ],
   imports: [
     BrowserModule, 
