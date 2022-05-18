@@ -4,13 +4,13 @@ export class Recipe
     // elements of recipe
     public name: string; 
     public description: string; 
-    public imagePath: string;
+    public imageURL: string;
 
     // constructor so we can instantiate recipe with values
-    constructor(name: string, description: string, imagePath: string)
+    constructor(name: string, description: string, imageURL: string)
     {
         this.name = name; 
         this.description = description; 
-        this.imagePath = imagePath; 
+        this.imageURL = imageURL; 
     } 
 }
