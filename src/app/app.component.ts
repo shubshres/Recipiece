@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Recipiece';
+  loadedTab = 'recipe'; 
+  onNavigate(tab: string)
+  {
+    // change the loaded page
+    this.loadedTab = tab; 
+  }
 }
